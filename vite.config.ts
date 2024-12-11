@@ -5,6 +5,7 @@ import fs from "fs";
 // https://vitejs.dev/config/
 export default defineConfig({
 	plugins: [react()],
+	base: "/hitster-kerst/", // Use your GitHub repository name
 	server: {
 		port: 5174,
 		https: {
